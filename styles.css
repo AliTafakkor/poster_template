@@ -29,8 +29,8 @@ h1 {
 
 .poster-image {
     aspect-ratio: 1 / 1;
-    max-width: 60%;
-    max-height: 50%;
+    max-width: 50%;
+    max-height: 40%;
     border-radius: 50%; /* Circular Image */
     object-fit: cover;
     margin: 0 auto;
@@ -44,6 +44,13 @@ h1 {
     font-size: 1.2em;
     color: #FFFFFF;
     margin-bottom: 30px;
+}
+
+.speakers strong {
+    font-size: 1.5em; /* Increase font size */
+    font-weight: bold; /* Make the text bold (optional) */
+    color: #FFCC00; /* Western Gold color for emphasis (optional) */
+    margin-bottom: 10px; /* Add some space below */
 }
 
 .info p {

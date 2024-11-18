@@ -29,7 +29,7 @@ h1 {
 
 .poster-image {
     aspect-ratio: 1 / 1;
-    max-width: 50%;
+    max-width: 40%;
     max-height: 40%;
     border-radius: 50%; /* Circular Image */
     object-fit: cover;
@@ -60,6 +60,15 @@ h1 {
 
 .info strong {
     color: #FCF05E; /* Western Gold */
+}
+
+.qr-image {
+    aspect-ratio: 1 / 1;
+    max-width: 15%;
+    max-height: 15%;
+    border-radius: 10px; /* Circular Image */
+    object-fit: cover;
+    margin: 0 auto;
 }
 
 footer {
